@@ -9,6 +9,11 @@ function menos() {
     valorAtual--
     contador()
 }
+function zerar() {
+    valorAtual = -1
+    contador()
+}
+
 function reset() {
     valorAtual = 0
     contador()
@@ -17,10 +22,13 @@ function reset() {
 function contador() {
     const p = document.querySelector("#contador")
     p.innerText = valorAtual
-    if (valorAtual<0) {
-        alert("Pare não é possível utilizar números negativos")
-        reset()
+    if (valorAtual<=-1) {
+        document.getElementById('error').style.display = "block";
+        zerar()
     }
+    else
+    document.getElementById('error').style.display = "none";
 }
+
 
 contador()
