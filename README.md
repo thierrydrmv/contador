@@ -1,4 +1,4 @@
-# contador
+# Contador
 
 <h3 align="center">
   <a href="https://thierrydrmv.github.io/contador/" target="_blank">Acessar o Contador</a>
