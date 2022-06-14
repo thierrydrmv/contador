@@ -8,6 +8,7 @@ body {
 
 p {
     font-size: 50px;
+    
 }
 #reset {
     display: block;
@@ -28,11 +29,18 @@ button:hover{
 }
 
 #error {
-    background-color: red;
+    background-color: rgb(212, 27, 27);
     display: none;
     border: 2px;
     width: 200px;
     height: 40px;
-    border-radius: 20px;
+    border-radius: 10px;
     text-align: center;
+    position: absolute;
+    top: 170px;
+}
+
+
+#reset {
+    margin-top: 3px;
 }
